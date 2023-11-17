@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'BobFont';
+  src: url('../fonts/bob-font.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+#content {
+  background-color: rgb(240, 234, 214);
+}
+
+#title {
+  margin-bottom: 25px;
+  display: block;
+  font-size: 5.5rem;
+  font-family: 'BobFont';
+  text-align: center;
+  background-color: yellow;
+  border: solid red 5px;
+}
+
+#tab-container {
+  font-size: 2.5rem;
+  display: flex;
+  font-family: 'BobFont';
+  justify-content: center;
+  gap: 75px;
+}
+
+#tab-container div{
+  background-color: yellow;
+  padding: 3px 10px;
+  border: solid red 5px;
+  cursor: pointer;
+}

@@ -1,3 +1,3 @@
-import pageLoad from './pageLoad';
+import loadStartPage from './loadPages/loadStartPage';
 
-pageLoad();
+loadStartPage();
