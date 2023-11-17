@@ -1,9 +1,11 @@
 import bob from '../imgs/bob-belcher.jpg';
+import '../css/home.css';
 
 const loadHome = function() {
   const container = document.getElementById('content');
 
   const homeContainer = document.createElement('div');
+  homeContainer.setAttribute('id','container');
   container.appendChild(homeContainer);
 
   const motto = document.createElement('div');
