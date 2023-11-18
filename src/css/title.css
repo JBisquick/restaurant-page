@@ -44,3 +44,7 @@ html, body {
   border: solid red 5px;
   cursor: pointer;
 }
+
+#tab-container div:hover {
+  transform: scale(1.05);
+}
