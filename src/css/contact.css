@@ -1,0 +1,13 @@
+#container {
+    font-family: 'BobFont';
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    background-color: yellow;
+    align-items: center;
+    margin-top: 25px;
+    border: solid red 5px;
+    padding: 10px 15px;
+    color: black;
+  }

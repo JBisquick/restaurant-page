@@ -15,18 +15,20 @@ const loadStartPage = function() {
   
   const home = document.createElement('div');
   tabContainer.appendChild(home);
+  home.setAttribute('id', 'home');
   home.textContent = 'Home';
 
   const menu = document.createElement('div');
   tabContainer.appendChild(menu);
+  menu.setAttribute('id', 'menu');
   menu.textContent = 'Menu';
 
   const contact = document.createElement('div');
   tabContainer.appendChild(contact);
+  contact.setAttribute('id', 'contact');
   contact.textContent = 'Contact';
 
   loadHome();
 }
 
 export default loadStartPage;
-

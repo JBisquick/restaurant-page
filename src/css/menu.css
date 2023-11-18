@@ -1,0 +1,10 @@
+#container {
+  display: grid;
+  grid-template-columns: 30rem 10rem;
+  row-gap: 7.5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  border: solid 7.5px darkblue;
+  width: 40rem;
+  color: blue;
+}
