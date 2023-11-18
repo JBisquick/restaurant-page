@@ -6,6 +6,7 @@ const loadHome = function() {
 
   const homeContainer = document.createElement('div');
   homeContainer.setAttribute('id','container');
+  homeContainer.setAttribute('class','home-container');
   container.appendChild(homeContainer);
 
   const motto = document.createElement('div');

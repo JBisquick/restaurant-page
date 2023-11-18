@@ -5,6 +5,7 @@ const loadMenu = function() {
 
   const homeContainer = document.createElement('div');
   homeContainer.setAttribute('id','container');
+  homeContainer.setAttribute('class','menu-container');
   container.appendChild(homeContainer);
 
   const menu1 = document.createElement('div');

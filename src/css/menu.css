@@ -1,4 +1,4 @@
-#container {
+.menu-container {
   display: grid;
   grid-template-columns: 30rem 10rem;
   row-gap: 7.5px;
@@ -7,4 +7,6 @@
   border: solid 7.5px darkblue;
   width: 40rem;
   color: blue;
+  margin-top: 25px;
+  font-size: 2rem;
 }

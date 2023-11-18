@@ -11,7 +11,7 @@ img {
   border-radius: 50%;
 }
 
-#container {
+.home-container {
   font-family: 'BobFont';
   font-size: 2rem;
   display: flex;

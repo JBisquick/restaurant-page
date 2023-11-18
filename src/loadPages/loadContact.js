@@ -6,6 +6,7 @@ const loadContact = function() {
 
   const homeContainer = document.createElement('div');
   homeContainer.setAttribute('id','container');
+  homeContainer.setAttribute('class','contact-container');
   container.appendChild(homeContainer);
 
   const address = document.createElement('div');
